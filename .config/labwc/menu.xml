@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+<menu id="root-menu" label="root-menu">
+  <menu id="Accessories" label="Accessories" icon="applications-accessories">
+    <item label="About Xfce" icon="org.xfce.about">
+      <action name="Execute"><command>xfce4-about</command></action>
+    </item>
+    <item label="Bulk Rename" icon="org.xfce.thunar">
+      <action name="Execute"><command>thunar --bulk-rename</command></action>
+    </item>
+    <item label="Catfish File Search" icon="org.xfce.catfish">
+      <action name="Execute"><command>catfish</command></action>
+    </item>
+    <item label="File Roller" icon="org.gnome.FileRoller">
+      <action name="Execute"><command>file-roller</command></action>
+    </item>
+    <item label="Flatseal" icon="com.github.tchx84.Flatseal">
+      <action name="Execute"><command>/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=com.github.tchx84.Flatseal com.github.tchx84.Flatseal</command></action>
+    </item>
+    <item label="KeePassXC" icon="keepassxc">
+      <action name="Execute"><command>keepassxc</command></action>
+    </item>
+    <item label="Neovim" icon="nvim">
+      <action name="Execute"><command>nvim</command></action>
+    </item>
+    <item label="Piper" icon="org.freedesktop.Piper">
+      <action name="Execute"><command>piper</command></action>
+    </item>
+    <item label="Thunar File Manager" icon="org.xfce.thunar">
+      <action name="Execute"><command>thunar</command></action>
+    </item>
+    <item label="xgps" icon="/usr/share/gpsd/icons/gpsd-logo.png">
+      <action name="Execute"><command>xgps</command></action>
+    </item>
+    <item label="xgpsspeed" icon="/usr/share/gpsd/icons/gpsd-logo.png">
+      <action name="Execute"><command>xgpsspeed</command></action>
+    </item>
+  </menu> <!-- Accessories -->
+  <menu id="Development" label="Development" icon="applications-development">
+    <item label="CMake" icon="CMakeSetup">
+      <action name="Execute"><command>cmake-gui</command></action>
+    </item>
+    <item label="Neovim" icon="nvim">
+      <action name="Execute"><command>nvim</command></action>
+    </item>
+    <item label="Qt Assistant" icon="assistant">
+      <action name="Execute"><command>assistant6</command></action>
+    </item>
+    <item label="Qt D-Bus Viewer" icon="qdbusviewer">
+      <action name="Execute"><command>qdbusviewer6</command></action>
+    </item>
+    <item label="Qt Widgets Designer" icon="designer">
+      <action name="Execute"><command>designer6</command></action>
+    </item>
+  </menu> <!-- Development -->
+  <menu id="Games" label="Games" icon="applications-games">
+    <item label="OneClient" icon="oneclient_app">
+      <action name="Execute"><command>oneclient_app</command></action>
+    </item>
+    <item label="Prism Launcher" icon="org.prismlauncher.PrismLauncher">
+      <action name="Execute"><command>prismlauncher</command></action>
+    </item>
+  </menu> <!-- Games -->
+  <menu id="Internet" label="Internet" icon="applications-internet">
+    <item label="Helium Browser" icon="helium-browser">
+      <action name="Execute"><command>helium-browser</command></action>
+    </item>
+  </menu> <!-- Internet -->
+  <menu id="Multimedia" label="Multimedia" icon="applications-multimedia">
+    <item label="Easy Effects" icon="com.github.wwmm.easyeffects">
+      <action name="Execute"><command>/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=easyeffects com.github.wwmm.easyeffects</command></action>
+    </item>
+    <item label="mpv Media Player" icon="mpv">
+      <action name="Execute"><command>mpv --player-operation-mode=pseudo-gui --</command></action>
+    </item>
+    <item label="pwvucontrol" icon="com.saivert.pwvucontrol">
+      <action name="Execute"><command>pwvucontrol</command></action>
+    </item>
+    <item label="Qt V4L2 test Utility" icon="qv4l2">
+      <action name="Execute"><command>qv4l2</command></action>
+    </item>
+    <item label="Qt V4L2 video capture utility" icon="qvidcap">
+      <action name="Execute"><command>qvidcap</command></action>
+    </item>
+  </menu> <!-- Multimedia -->
+  <menu id="Settings" label="Settings" icon="preferences-desktop">
+    <item label="Customize Look and Feel" icon="preferences-desktop-theme">
+      <action name="Execute"><command>lxappearance</command></action>
+    </item>
+    <item label="Labwc Tweaks" icon="labwc_tweaks">
+      <action name="Execute"><command>labwc-tweaks</command></action>
+    </item>
+    <item label="Manage Printing" icon="cups">
+      <action name="Execute"><command>xdg-open http://localhost:631/</command></action>
+    </item>
+    <item label="Removable Drives and Media" icon="org.xfce.volman">
+      <action name="Execute"><command>thunar-volman-settings</command></action>
+    </item>
+    <item label="Thunar Preferences" icon="org.xfce.thunar">
+      <action name="Execute"><command>thunar-settings</command></action>
+    </item>
+  </menu> <!-- Settings -->
+  <menu id="System" label="System" icon="applications-system">
+    <item label="Alacritty" icon="Alacritty">
+      <action name="Execute"><command>alacritty</command></action>
+    </item>
+    <item label="btop++" icon="btop">
+      <action name="Execute"><command>btop</command></action>
+    </item>
+    <item label="Hardware Locality lstopo" icon="hwloc">
+      <action name="Execute"><command>lstopo</command></action>
+    </item>
+    <item label="Manage Printing" icon="cups">
+      <action name="Execute"><command>xdg-open http://localhost:631/</command></action>
+    </item>
+    <item label="OpenJDK Java 25 Console" icon="java25-openjdk">
+      <action name="Execute"><command>/usr/lib/jvm/java-25-openjdk/bin/jconsole</command></action>
+    </item>
+    <item label="OpenJDK Java 25 Shell" icon="java25-openjdk">
+      <action name="Execute"><command>/usr/lib/jvm/java-25-openjdk/bin/jshell</command></action>
+    </item>
+    <item label="Thunar File Manager" icon="org.xfce.thunar">
+      <action name="Execute"><command>thunar</command></action>
+    </item>
+  </menu> <!-- System -->
+</menu> <!-- root-menu -->
+</openbox_menu>

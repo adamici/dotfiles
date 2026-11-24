@@ -1,0 +1,26 @@
+<labwc_config>
+  <core>
+    <decoration>server</decoration>
+  </core>
+  <theme>
+    <name>Arc-Clone</name>
+    <icon>Win11-dark</icon>
+    <dropShadows>yes</dropShadows>
+    <dropShadowsOnTiled>yes</dropShadowsOnTiled>
+    <cornerRadius>10</cornerRadius>
+  </theme>
+  <libinput>
+    <device>
+      <accelProfile>flat</accelProfile>
+      <sendEventsMode>disabledOnExternalMouse</sendEventsMode>
+      <tap>no</tap>
+      <tapAndDrag>no</tapAndDrag>
+      <scrollMethod>none</scrollMethod>
+    </device>
+  </libinput>
+  <keyboard>
+    <numlock>yes</numlock>
+    <repeatRate>30</repeatRate>
+    <repeatDelay>500</repeatDelay>
+  </keyboard>
+</labwc_config>
