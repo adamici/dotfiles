@@ -1,0 +1,24 @@
+{
+  "plugins": {
+    "catppuccin": {
+      "rev": "edefef779ab08ce1a4a404713e3012b0d202bd35",
+      "src": "https://github.com/catppuccin/nvim"
+    },
+    "coq_nvim": {
+      "rev": "765da9f5faa5202956c6330d278d9101c58d87f3",
+      "src": "https://github.com/ms-jpq/coq_nvim"
+    },
+    "grug-far.nvim": {
+      "rev": "91b7e58b6ffc6ddad5acb7a7c1df21257724449e",
+      "src": "https://github.com/MagicDuck/grug-far.nvim"
+    },
+    "mini.nvim": {
+      "rev": "a03ad899bda446b5a81cfa99d8aeeb92241522f3",
+      "src": "https://github.com/echasnovski/mini.nvim"
+    },
+    "witch-line": {
+      "rev": "eed1550d0947da701e72f9816dd3b759081285fb",
+      "src": "https://github.com/sontungexpt/witch-line"
+    }
+  }
+}

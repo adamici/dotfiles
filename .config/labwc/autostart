@@ -1,0 +1,3 @@
+wlr-randr --output DP-1 --mode "1920x1200@59.884998Hz" &
+swaybg -i "/home/lchavez3509/.local/share/wallpapers/Desert Blue.jpg" &
+waybar &
