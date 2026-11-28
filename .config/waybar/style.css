@@ -16,7 +16,7 @@
   border-radius: 0;
   font-family: "Segoe UI", "Roboto", "Noto Sans";
   font-weight: 600;
-  font-size: 12.7px;	
+  font-size: 12px;	
 }
 
 window#waybar {
@@ -54,10 +54,10 @@ tooltip label{
 #taskbar button {
   min-width: 24px;
   border-bottom: 3px solid rgba(255, 255, 255, 0.3);
-  margin-left: 2px;
-  margin-right: 2px;
-  padding-left: 8px;
-  padding-right: 8px;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
   color: white;
   transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
