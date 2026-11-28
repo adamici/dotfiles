@@ -16,4 +16,4 @@
 
 #### Alacritty Theme:
 
-- The Alacritty theme is a recreation of Catppuchin Mocha to the best of my ability.
+- The Alacritty theme is from [here](https://github.com/catppuccin/alacritty/blob/main/catppuccin-mocha.toml)
