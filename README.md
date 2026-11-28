@@ -4,18 +4,15 @@
 
 #### Fish Plugins:
 
-- jorgebucaran/fisher
-  - jorgebucaran/autopair.fish
-  - reitzig/sdkman-for-fish
-  - patrickf1/fzf.fish
-  - catppuccin/fish
+- None, I just use starship.rs!
 
 #### Neovim Plugins:
 
-- sontungexpt/witch-line
-- echasnovski/mini.nvim
-- ms-jpq/coq_nvim
 - catppuccin/nvim
+- sontungexpt/witch-line
+- ms-jpq/coq_nvim
+- echasnovski/mini.nvim
+- MagicDuck/grug-far
 
 #### Alacritty Theme:
 
