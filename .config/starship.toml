@@ -25,6 +25,8 @@ style = "purple"
 disabled = false
 style = "white"
 
+# -----------------------------------------------
+
 [aws]
 disabled = true
 [azure]
